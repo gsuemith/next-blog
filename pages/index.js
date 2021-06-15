@@ -1,6 +1,6 @@
 
 import Link from 'next/Link'
-import ArticleList from '../components/ArticleList'
+import PostList from '../components/PostList'
 import Footer from '../components/Footer'
 import Meta from '../components/Meta'
 import {server} from '../config'
@@ -17,7 +17,7 @@ export default function Home({ posts }) {
           <h4><a>NEXT.js</a> Blog</h4>
         </div>
 
-        <ArticleList posts={posts} />
+        <PostList posts={posts} />
        
       </main>
 

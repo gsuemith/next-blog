@@ -1,7 +1,7 @@
 import Link from 'next/Link'
 import styles from '../styles/List.module.css'
 
-const ArticleList = ({ posts }) => {
+const PostList = ({ posts }) => {
   return (
     <>
     {
@@ -22,4 +22,4 @@ const ArticleList = ({ posts }) => {
   )
 }
 
-export default ArticleList
+export default PostList
